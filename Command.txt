@@ -1,0 +1,18 @@
+docker ps
+docker ps -all
+docker run busybox
+docker run busybox ping google.com
+docker stop 
+docker rm 
+docker system prune # อันตรายอย่าหาพิมพ์ไอ้สัส อย่าโง่ กูข้อร้อง
+docker exec
+docker exec -it ...... bach
+http://localhost:9000/
+docker run --name mynginx -d -p 3000:80 nginx
+docker run -d -p 4000:80 nginx
+docker logs 65b976a0157e2d9caf67ee5b9aa00c5e009f12d1aad5052b7e4125792f7b16fc
+docker system info
+docker system df
+docker images
+docker image inspect nginx
+docker image rm hello-world
